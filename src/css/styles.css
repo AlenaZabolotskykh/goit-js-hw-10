@@ -99,3 +99,39 @@ line-height: 150%;
 color: #2e2f42;
 text-transform: uppercase;
 }
+
+
+[name='delay'] {
+  display: flex;
+  width: 340px;
+  height: 40px;
+  padding-left: 16px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+
+form button {
+  border-radius: 8px;
+padding: 8px 16px;
+width: 360px;
+height: 40px;
+background: #4e75ff;
+margin-left: 0;
+font-family: var(--font-family);
+font-weight: 500;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #fff;
+}
+
+form button:hover,
+form button:focus {
+background-color:#6c8cff;;
+}
+
+fieldset {
+  width: 264px;
+ padding: 24px 48px 8px 48px;
+ margin: 16px 0 24px 0;
+}
