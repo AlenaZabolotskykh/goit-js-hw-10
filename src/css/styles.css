@@ -28,8 +28,11 @@
 #datetime-picker {
   border: 1px solid #808080;
   border-radius: 4px;
-width: 272px;
+width: 240px;
 height: 40px;
+padding: 0px 16px;
+margin-top: 32px;
+margin-bottom: 32px;
 }
 
 #datetime-picker:hover {
@@ -57,8 +60,8 @@ font-weight: 500;
 line-height: 150%;
 letter-spacing: 0.04em;
 color: #fff;
-padding: 8px 16px;
-  }
+margin-left: 8px;
+}
 
 button:hover {
   background-color: #6c8cff;
@@ -71,10 +74,28 @@ button:disabled {
 
 .timer {
   display: flex;
+gap: 24px; 
+align-content: space-between;
 }
 
 .field {
   display: flex;
   flex-direction: column;
-  column-gap: 24px;
+  align-items: center;
+}
+
+.value {
+  font-family: var(--font-family);
+font-size: 40px;
+line-height: 120%;
+letter-spacing: 0.04em;
+color: #2e2f42;
+
+}
+
+.label {
+  font-family: var(--font-family);
+line-height: 150%;
+color: #2e2f42;
+text-transform: uppercase;
 }
